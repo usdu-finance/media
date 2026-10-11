@@ -3,17 +3,18 @@
  width="300" height="300" viewBox="0 0 300 300"
  preserveAspectRatio="xMidYMid meet">
   <defs>
-    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#1a1a1a;stop-opacity:1" />
-      <stop offset="70%" style="stop-color:#8B6914;stop-opacity:1" />
+      <stop offset="15%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="45%" style="stop-color:#8B6914;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#FFD700;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
     </linearGradient>
   </defs>
   
   <!-- Background circle with gradient (the filled shape) -->
   <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-     fill="url(#goldGradient)" stroke="none" fill-rule="evenodd">
+     fill="url(#gradient)" stroke="none" fill-rule="evenodd">
     <path d="M1375 2990 c-120 -9 -215 -29 -351 -75 -524 -175 -903 -619 -1000
 -1170 -21 -121 -21 -370 1 -495 81 -469 387 -878 810 -1085 205 -100 342 -139
 552 -154 210 -16 404 9 597 76 374 130 668 386 845 734 114 223 163 430 163
