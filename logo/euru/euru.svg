@@ -1,15 +1,21 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+ width="300" height="300" viewBox="0 0 300 300"
  preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.10, written by Peter Selinger 2001-2011
-</metadata>
-<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-fill="#3B82DB" stroke="none">
-<path d="M1375 2990 c-120 -9 -215 -29 -351 -75 -524 -175 -903 -619 -1000
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="15%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="45%" style="stop-color:#1B4A8A;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#5AA0FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5AA0FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with gradient (the filled shape) -->
+  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+     fill="url(#gradient)" stroke="none" fill-rule="evenodd">
+    <path d="M1375 2990 c-120 -9 -215 -29 -351 -75 -524 -175 -903 -619 -1000
 -1170 -21 -121 -21 -370 1 -495 81 -469 387 -878 810 -1085 205 -100 342 -139
 552 -154 210 -16 404 9 597 76 374 130 668 386 845 734 114 223 163 430 163
 684 0 170 -20 298 -72 455 -151 463 -498 809 -960 960 -190 62 -376 84 -585
@@ -20,5 +26,6 @@ fill="#3B82DB" stroke="none">
 34 -188 105 -237 164 -47 58 -94 160 -103 227 l-8 55 -173 3 -172 2 0 90 0 90
 170 0 170 0 0 40 0 40 -170 0 -170 0 0 90 0 90 170 0 170 0 0 250 0 250 176 0
 176 0 -6 -302z"/>
-</g>
+  </g>
+  
 </svg>
